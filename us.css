@@ -77,3 +77,14 @@ a{
     font-size: 18px;
     color: white;
   }
+
+  .container_principal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+  }
+
+  .imagen_us{
+    width: 700px;
+    margin-left: 30px;
+  }
