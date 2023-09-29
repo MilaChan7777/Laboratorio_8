@@ -5,10 +5,10 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
     width: 100%;
-    background-color: #1b1b1b;
+    background-color: #ffffff;
 }
 
 .nav_bar{
@@ -19,9 +19,12 @@ body {
     padding: 1.5rem;
     box-sizing: border-box;
     width: 100%;
+    height: 70px;
     display: flex;
     justify-content: space-around;
+    background-color: #2aa1ff;
 }
+
 
 .items_bar{
         display: flex;
@@ -51,6 +54,7 @@ body {
     outline: none;
     background-color: transparent;
     color: white;
+    border: none;
   }
 
   .search_bar input[type="text"]::placeholder {
@@ -69,3 +73,75 @@ body {
     font-size: 18px;
     color: white;
   }
+
+  .barra_bar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+  }
+
+  .container_principal{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 500px;
+    margin-top: 150px;
+  }
+
+  .imagen_container{
+    position: relative;
+    top: -90px;
+  }
+
+.pc_imagen{
+  width: 700px;
+}
+
+.titulo1_container{
+  position: relative;
+  top: -100px;
+  left: 100px;
+}
+
+.titulo{
+  color: #2aa1ff;
+  font-size: 2.5rem;
+}
+
+.texto_uno{
+  color: gray;
+}
+
+.button1{
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #2aa1ff;
+  color: white;
+  font-size: .9rem;
+  border-radius: 20px;
+}
+
+.titulo2_container{
+  position: relative;
+  top: 80px;
+}
+
+.titulo_dos{
+  color: #2aa1ff;
+}
+
+.texto_dos{
+  color: gray;
+}
+
+.button2{
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: #2aa1ff;
+  color: white;
+  font-size: .9rem;
+  border-radius: 20px;
+}
