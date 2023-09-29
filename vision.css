@@ -86,7 +86,7 @@ a{
 
   }
 
-  .titulo_mision{
+  .titulo_vision{
     position: relative;
     text-align: center;
     top: 100px;
@@ -94,7 +94,7 @@ a{
     font-size: 4rem;
   }
 
-  .texto_mision{
+  .texto_vision{
     text-align: center;
     color: gray;
     position: relative;
