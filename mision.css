@@ -8,6 +8,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: 100vh;
     background-color: #ffffff;
 }
 
@@ -77,3 +78,36 @@ a{
     font-size: 18px;
     color: white;
   }
+
+  .container_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .titulo_mision{
+    position: relative;
+    text-align: center;
+    top: 100px;
+    color: #2aa1ff;
+    font-size: 4rem;
+  }
+
+  .texto_mision{
+    text-align: center;
+    color: gray;
+    position: relative;
+    top: 120px;
+    right: -20px;
+    font-size: 1.2rem;
+  }
+
+.image_vision{
+    position: relative;
+    z-index: -1;
+    top: 100px;
+    right: -350px;
+    width: 350px;
+}
