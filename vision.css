@@ -107,6 +107,6 @@ a{
     position: relative;
     z-index: -1;
     top: 100px;
-    right: -350px;
-    width: 350px;
+    right: -300px;
+    width: 500px;
 }
