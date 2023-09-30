@@ -77,3 +77,19 @@ a{
     font-size: 18px;
     color: white;
   }
+
+  .container_principal{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact_container{
+    width: 700px;
+    height: auto;
+    background-color: #dff3fc;
+  }
+  
+  .image{
+    width: 600px;
+    height: 605px;
+  }
