@@ -29,7 +29,39 @@
             <h2 class="titulo_dos"> CONTACTÉNOS </h2>
             <p class="texto">  Phasellus neque neque, volutpat non eros non, lacinia feugiat nisl.</p>
             <div class="form_container">
-        </div>
+    <form action="procesar_formulario.php" method="post">
+        <label for="razon_contacto">Razón de contacto:</label><br>
+        <select id="razon_contacto" name="razon_contacto">
+            <option value="Consulta">Consulta</option>
+            <option value="Comentario">Comentario</option>
+            <option value="Sugerencia">Sugerencia</option>
+        </select>
+        
+        <br>
+        
+        <label for="nombre_completo">Nombre completo:</label><br>
+        <input type="text" id="nombre_completo" name="nombre_completo" required>
+        
+        <br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        
+        <br>
+        
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+        
+        <br>
+        
+        <input type="checkbox" id="acepto_privacidad" name="acepto_privacidad" required>
+        <label for="acepto_privacidad">Acepto la política de privacidad</label>
+        
+        <br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+            </div>
         </div>
         </div>
         <div class="image_container">
