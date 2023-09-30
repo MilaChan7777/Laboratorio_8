@@ -93,3 +93,25 @@ a{
     width: 600px;
     height: 605px;
   }
+
+  .titulo_uno{
+    position: relative;
+    top: 150px;
+    right: -50px;
+    color: #2aa1ff;
+  }
+
+  .titulo_dos{
+    position: relative;
+    top: 150px;
+    right: -40px;
+    font-size: 4rem;
+    color: #2aa1ff;
+  }
+
+  .texto{
+    position: relative;
+    top: 150px;
+    right: -45px;
+    color: gray;
+  }
